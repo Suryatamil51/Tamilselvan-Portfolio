@@ -1583,7 +1583,8 @@ footer .footer-text {
 /* =============================== */
 
 /* Disable custom cursor on touch devices and mobile/tablet views */
-@media (hover: none) and (pointer: coarse), (max-width: 1024px) {
+@media (hover: none) and (pointer: coarse),
+(max-width: 1024px) {
   .cursor {
     display: none !important;
   }
@@ -2039,7 +2040,8 @@ footer .footer-text {
   }
 }
 
-@media (hover: none), (pointer: coarse) {
+@media (hover: none),
+(pointer: coarse) {
 
   .project-item:hover .project-image img,
   .stat:hover,
